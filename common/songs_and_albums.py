@@ -1,4 +1,4 @@
-from process_lyrics.words import get_num_words, get_num_unique_words
+from common.words import get_num_words, get_num_unique_words
 import csv
 import json
 from copy import deepcopy

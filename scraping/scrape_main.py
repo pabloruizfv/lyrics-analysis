@@ -2,7 +2,7 @@ from datetime import datetime
 from scraping.scrape_discography_azlyrics import load_artist_discography
 from scraping.scrape_lyrics_azlyrics import scrape_lyrics_songs_azlyrics
 from scraping.find_artist_url import find_artist_url
-from songs_and_albums.songs_and_albums import write_songs_json
+from common.songs_and_albums import write_songs_json
 import configparser
 from configparser import NoOptionError
 from os.path import join

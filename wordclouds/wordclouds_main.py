@@ -1,7 +1,7 @@
-from songs_and_albums.songs_and_albums import load_songs_json
+from common.songs_and_albums import load_songs_json
 from wordclouds.plot_wordcloud import plot_and_save_wordcloud
 from common.common import string_for_path, create_subdir
-from process_lyrics.clean_lyrics import apply_lowercase, filter_pos
+from common.clean_lyrics import apply_lowercase, filter_pos
 from os.path import dirname, join
 from wordcloud import WordCloud
 from datetime import datetime

@@ -1,5 +1,5 @@
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from process_lyrics.clean_lyrics import apply_lowercase
+from common.clean_lyrics import apply_lowercase
 
 
 def get_songs_sentiments_vader(songs):

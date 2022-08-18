@@ -2,7 +2,7 @@ from selenium import webdriver
 from datetime import datetime
 from selenium.webdriver.chrome.options import Options
 import re
-from songs_and_albums.songs_and_albums import Song, Album
+from common.songs_and_albums import Song, Album
 
 
 def parse_song_text(song_text):

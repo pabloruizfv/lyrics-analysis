@@ -1,4 +1,4 @@
-from songs_and_albums.songs_and_albums import load_songs_json, \
+from common.songs_and_albums import load_songs_json, \
     write_songs_json, write_songs_csv
 from sentiment.sentiment_vader import get_songs_sentiments_vader
 from sentiment.plot_sentiments import plot_albums_avg_sentiments
